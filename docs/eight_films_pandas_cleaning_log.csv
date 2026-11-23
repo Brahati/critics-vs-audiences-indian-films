@@ -1,0 +1,8 @@
+Operation,Description,Result
+Duplicate check,Duplicates removed,0
+Whitespace cleaning,Text fields trimmed,Applied
+Numeric conversion,Numeric columns converted,Applied
+Missing values,Total missing values after cleaning,0
+Rating validation,Invalid IMDb ratings,0
+Vote validation,Invalid vote counts,0
+Final row count,Records retained,8

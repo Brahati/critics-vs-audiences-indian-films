@@ -1,0 +1,5 @@
+split,sentiment,review_count
+test,neg,12500
+test,pos,12500
+train,neg,12500
+train,pos,12500

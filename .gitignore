@@ -1,0 +1,53 @@
+# Secrets and environment
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+logs/
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large raw source downloads
+data/raw/**
+!data/raw/critics/
+!data/raw/critics/eight_films_critic_reviews.csv
+!data/raw/wikipedia/
+!data/raw/wikipedia/eight_films_wikipedia_raw.json
+
+# Staging data: retain Excel cleaning evidence only
+data/staging/**
+!data/staging/imdb/
+!data/staging/imdb/eight_films_excel_cleaning.xlsx
+
+# Processed data: retain project outputs
+data/processed/**
+!data/processed/imdb/
+!data/processed/imdb/*.csv
+!data/processed/critics/
+!data/processed/critics/*.csv
+!data/processed/wikipedia/
+!data/processed/wikipedia/*.csv
+!data/processed/imdb_reviews/
+!data/processed/imdb_reviews/*.csv
+
+# Configuration containing secrets
+config/settings.yaml
